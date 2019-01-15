@@ -22,7 +22,7 @@
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
-\use_dash_ligatures true
+\use_dash_ligatures false
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -77,60 +77,8 @@
 
 \begin_body
 
-\begin_layout Chapter
-使用手册
-\end_layout
-
-\begin_layout Section
-使用说明
-\end_layout
-
-\begin_layout Subsection
-安装环境
-\end_layout
-
 \begin_layout Standard
-运行需要：
-\end_layout
-
-\begin_layout Enumerate
-能正常编译文档的LyX。
-\end_layout
-
-\begin_layout Enumerate
-能被LyX正常调用的xelatex，以及各种所需宏包。
-\end_layout
-
-\begin_layout Enumerate
-能在命令行运行的python，以及yaml包。
-\end_layout
-
-\begin_layout Standard
-很抱歉，我们不会装电脑，也不会用Windows。遇到问题只能自己解决啦。
-\end_layout
-
-\begin_layout Section
-常见问题
-\end_layout
-
-\begin_layout Subsection
-``图''和``表''显示为``Figure''和``Table''。
-\end_layout
-
-\begin_layout Standard
-LyX默认会在Preamble的最后添加一个对babel宏包的引用，将Document 
-\begin_inset Formula $\to$
-\end_inset
-
- Settings 
-\begin_inset Formula $\to$
-\end_inset
-
- Language 
-\begin_inset Formula $\to$
-\end_inset
-
- Language package设置成None即可。
+English Abstract.
 \end_layout
 
 \end_body
